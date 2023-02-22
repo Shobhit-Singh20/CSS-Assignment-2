@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<title>CSS Assignment 2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Different Size of Text ("Hello World!")</h2>
+    <div>
+        <p>Height : 10 px</p>
+        <p>Pixels(px) are relative to viewing devices.</p>
+        <p class="h1">Hello World !</p>
+    </div>
+    <hr>
+    <div>
+        <p>Height:5 em</p>
+        <p>Relative to the font-size of the element.(2em means 2 times the size of the current font.)</p>
+        <p class="h2">Hello World!</p>
+    </div>
+    <hr>
+    <div>
+        <p>Height : 5 rem</p>
+        <p>Relative to font size of the root element.</p>
+        <p class="h3">Hello World !</p>
+    </div>
+    <hr>
+    <div>
+        <p>Height : 5 vw</p>
+        <p>Relative to 1% of the width of the viewport.</p>
+        <p class="h4">Hello World !</p>
+    </div>
+    <hr>
+    <div>
+        <p>Height : 5 vh</p>
+        <p>Relative to 1% of the height of the viewport.</p>
+        <p class="h5">Hello World !</p>
+    </div>
+    <h2 style="text-align: center;">Combinators</h2>
+    <div class="l1">
+        <p>This is for Descendant Selector.</p>
+        <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+        <span>The styling isn't applied on this.</span>
+      </div>
+      <hr>
+      <div class="l2">
+        <p>This is for Child Selector(>).</p>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <span>The styling isn't applied on this.</span>
+      </div>
+      <hr>
+      <div class="l3">
+        <p>This is for Adjacent Sibling Selector(+).</p>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+      </div>
+      <p>This is a paragraph which is just outside the div block.</p>
+      <p>But this is not the immediate one.</p>
+      <hr>
+      <div class="l4">
+        <p>This is for General Sibling Selector(~).</p>
+        <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+      </div>
+      <p>This is the block which is outside the div block.</p>
+      <p>This is the another div block.</p>
+      <p>So all of them are siblings of division and therefore have the styling.</p>
+      
+      
+</body>
+</html>

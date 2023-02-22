@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+}
+div{
+    float: left;
+    margin: 100px 80px 80px 100px;
+}
+.box1{
+   height: 150px;
+   width: 150px;
+   background-color: blueviolet;
+   transition: width 2s, height 2s;
+   
+}
+.box1:hover{
+    width: 200px;
+    height:200px;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(43, 226, 128);
+    transform: rotate(20deg);
+    
+}
+
+.box3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(198, 16, 40);
+    transition: transform 1s ;
+
+}
+
+.box3:hover{
+     transform: rotate(360deg);
+}

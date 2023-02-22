@@ -1,0 +1,28 @@
+.h1{
+    font-size: 10px;
+}
+.h2{
+    font-size: 2em;
+}
+.h3{
+    font-size: 5rem;
+}
+.h4{
+    font-size: 5vw;
+}
+.h5{
+    font-size: 5vh;
+}
+.l1 p {
+    background-color: rgb(255, 157, 0);
+  }
+.l2 > p {
+    background-color: rgb(0, 255, 140);
+  }
+.l3 + p {
+    background-color: yellow;
+  }
+
+.l4 ~ p {
+    background-color:rgb(143, 91, 142);
+  }
